@@ -7,7 +7,7 @@ import axios from 'axios';
 import { jwtDecode } from 'jwt-decode';
 import io from 'socket.io-client';
 
-const API_URL = 'http://192.168.1.4:3001'; // Make sure this IP is correct
+const API_URL = 'https://my-chat-server-h7aa.onrender.com/'; 
 
 interface User {
   _id: string;
